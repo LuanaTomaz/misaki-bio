@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>misaki</title>
+
+    <link rel="stylesheet" href="corpo.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+</head>
+
+
+<body>
+
+    <!-- Fundo -->
+     <video id="bg" autoplay muted loop playsinline>
+    <source src="assets/fundo.mp4" type="video/mp4">
+    </video>
+    <!-- Música -->
+    <audio id="music" loop>
+        <source src="assets/music.mp3" type="audio/mpeg">
+    </audio>
+
+
+    <!-- Card -->
+    <div class="card">
+
+        <div class="glow"></div>
+
+
+        <img src="assets/profile.png" class="foto" id="avatar" alt="Avatar">
+
+
+        <h1>misaki</h1>
+
+
+        <p class="bio">
+           ⤷ ゛𝑭𝒓𝒐𝒎 𝑩𝒍𝒐𝒐𝒅 𝒂𝒏𝒅 𝑨𝒔𝒉 𝑾𝒆 𝑾𝒊𝒍𝒍 𝑹𝒊𝒔𝒆 ˎˊ
+        </p>
+
+
+        <<div class="badges"></div>
+
+
+        <div class="line"></div>
+
+
+        <div class="social">
+
+            <a href="https://www.tiktok.com/@luaknyuz?_r=1&_t=ZS-99FPpLdoGxB">
+                <i class="fa-brands fa-tiktok"></i></a>
+
+            <a href="https://www.instagram.com/luaknyuz/?utm_source=ig_web_button_share_sheet">
+                <i class="fa-brands fa-instagram"></i></a>
+
+            <a href="https://open.spotify.com/user/313cou76yhdh7thfkap4qwoe5lte?si=Ffy9KfgSSAW0HGDG5Gf-AA&utm_source=copy-link">
+                <i class="fa-brands fa-spotify"></i></a>
+
+        </div>
+
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+
+    <script>
+
+        document.addEventListener("click", () => {
+
+            document.getElementById("music").play();
+
+        }, { once: true });
+
+    </script>
+
+
+</body>
+
+</html>
